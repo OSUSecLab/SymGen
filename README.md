@@ -1,5 +1,5 @@
 # Beyond Classification: Inferring Function Names in Stripped Binaries via Domain Adapted LLMs
-This repository contains the code implementation of paper [Beyond Classification: Inferring Function Names in Stripped Binaries via Domain Adapted LLMs]().
+This repository contains the code implementation of paper [Beyond Classification: Inferring Function Names in Stripped Binaries via Domain Adapted LLMs](https://www.ndss-symposium.org/wp-content/uploads/2025-797-paper.pdf).
 
 We implemented SymGen using [Ghidra](https://ghidra-sre.org/) (for decompilation), [ANTLR 4](https://www.antlr.org/) (for processing source code and decompiled code). 
 The model's fine-tuning and prediction are based on [alpaca-lora](https://github.com/tloen/alpaca-lora/tree/main).
@@ -31,7 +31,7 @@ For more details, please refer to our paper.
 
 
 ## Dataset
-The original binaries and the decompiled code used by SymGen can be downloaded [here](https://zenodo.org/records/14252147).
+The original source code, binaries, and decompiled code used by SymGen can be downloaded [here](https://zenodo.org/records/15530083).
 
 The uploaded package follows a three-level directory structure, organized as shown below:
 ```
@@ -240,6 +240,3 @@ This project is licensed under the Apache License 2.0 (See [LICENSE](LICENSE)).
 This project includes other components distributed under the Apache License 2.0:
 
 - alpaca-lora (See [scripts/model_training/LICENSE](scripts/model_training/LICENSE))
-
-## Citation
-TODO
